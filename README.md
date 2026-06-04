@@ -1,5 +1,13 @@
 # PyTemplate-CLI
 
+![Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-blue?style=for-the-badge)
+
+
+## 🚀 Live Demo
+
+**[View Demo](https://mayank-dev-15.github.io/pytemplate-cli-demo)** — hosted on GitHub Pages
+
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
