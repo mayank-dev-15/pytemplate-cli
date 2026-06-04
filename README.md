@@ -1,59 +1,109 @@
-# PyTemplate-CLI
+# pytemplate-cli
 
-![Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-blue?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-blue?style=for-the-badge)](https://mayank-dev-15.github.io/pytemplate-cli-demo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Language](https://img.shields.io/badge/Language-Python-green)
 
+Professional Python CLI tool template with argparse, logging, config management, and tests.
+
+`python` `cli` `template` `argparse`
+
+---
+
+## ✨ Features
+
+- argparse with subcommands and help text
+- Structured logging with configurable levels
+- YAML/JSON config file support
+- Unit tests with pytest
+- Type hints throughout
+- Error handling with custom exceptions
+- Entry point script for pip installation
+
+---
 
 ## 🚀 Live Demo
 
-**[View Demo](https://mayank-dev-15.github.io/pytemplate-cli-demo)** — hosted on GitHub Pages
+**[View Demo →](https://mayank-dev-15.github.io/pytemplate-cli-demo)**
 
+The demo is hosted on GitHub Pages. No installation needed — just click and explore.
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+---
 
-Professional Python CLI tool template with argparse, structured logging, YAML config, and rich output.
+## 🛠️ Tech Stack
 
-## Features
+- Python 3.10+
+- argparse
+- logging
+- pytest
+- PyYAML
 
-- **argparse** with subcommands (init, run, config)
-- **Rich** console output with progress bars
-- **YAML** configuration management
-- **Structured logging** with configurable levels
-- **Input validation** with extensible rules
-- **pytest** test suite
+---
 
-## Quick Start
+## 📦 Installation
 
 ```bash
-pip install -e .
-pytemplate-cli --help
-pytemplate-cli init myproject
-pytemplate-cli run --input data/ --output results/
-pytemplate-cli config show
+git clone https://github.com/mayank-dev-15/pytemplate-cli.git
+cd pytemplate-cli
 ```
 
-## Project Structure
+```bash
+cd pytemplate-cli
+pip install -e .
+# Or for development
+pip install -e ".[dev]"
+pytest
+```
+
+---
+
+## 💡 Usage
+
+```bash
+# Run the CLI
+python -m pytemplate_cli --help
+
+# With config
+python -m pytemplate_cli --config config.yaml run
+
+# Run tests
+pytest tests/ -v
+```
+
+---
+
+## 📁 Project Structure
 
 ```
 pytemplate-cli/
-├── src/pytemplate_cli/
-│   ├── cli.py              # Argument parsing
-│   ├── main.py             # Entry point
-│   ├── commands/           # Subcommand implementations
-│   │   ├── init.py
-│   │   ├── run.py
-│   │   └── config.py
-│   ├── core/               # Core logic
-│   │   ├── processor.py
-│   │   └── validator.py
-│   └── utils/              # Utilities
-│       ├── logging.py
-│       └── config.py
-├── tests/
-├── pyproject.toml
-└── README.md
+├── README.md          # This file
+├── Demo.md            # Demo documentation
+├── LICENSE            # MIT License
+└── ...                # Source files
 ```
 
-## License
+---
 
-MIT
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** [https://mayank-dev-15.github.io/pytemplate-cli-demo](https://mayank-dev-15.github.io/pytemplate-cli-demo)
+- **Source Code:** [github.com/mayank-dev-15/pytemplate-cli](https://github.com/mayank-dev-15/pytemplate-cli)
+- **Issues:** [github.com/mayank-dev-15/pytemplate-cli/issues](https://github.com/mayank-dev-15/pytemplate-cli/issues)
+- **Releases:** [github.com/mayank-dev-15/pytemplate-cli/releases](https://github.com/mayank-dev-15/pytemplate-cli/releases)
+- **Demo Docs:** [Demo.md](https://github.com/mayank-dev-15/pytemplate-cli/blob/main/Demo.md)
+
+---
+
+*Built with ❤️ by [Mayank Basena](https://github.com/mayank-dev-15) · 15 · GSoC 2027 Aspirant*
